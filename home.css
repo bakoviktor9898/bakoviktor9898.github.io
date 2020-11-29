@@ -95,15 +95,25 @@ body{
     height: 500px;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
     .trailerContent{
         display: none;
     }
-    .olympus{
+    .mapimg{
         display: none;
     }
 }
 
+@media screen and (max-width:600px){
+    h1{text-align: center;}
+    body{
+        text-align: center;
+    }
+    header{
+        text-align: left;
+    }
+    
+}
 
 .maps{
     text-align: center;
@@ -120,7 +130,7 @@ h1{
     font-weight: bold;
     font-size: 2.5rem;
     margin: 1rem;
-    text-shadow: black 3px 3px 5px;
+    text-shadow: black 3px 3px 5px ;
 }
 .content{
     margin-left: auto;
@@ -129,3 +139,31 @@ h1{
     width: 90%;
 
 }
+
+.charflex{
+    
+    
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+.charflex>li{
+    text-decoration: underline;
+    font-weight: bolder;
+    text-shadow: black 1px 1px 3px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    flex-shrink: 10;
+    flex-basis: 300px;
+    color: black;
+    
+    
+}
+
+    
+
